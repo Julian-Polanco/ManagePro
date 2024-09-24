@@ -1,0 +1,32 @@
+.main-section{
+    background-color: rgb(197, 197, 197);
+}
+/* Sección Principal */
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.client-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client i, .client img {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
