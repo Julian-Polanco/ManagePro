@@ -23,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto ">
                     <li class="nav-item bg-light rounded-top-2 custom-border">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link"  href="../index.html">Home</a>
                     </li>
                     <li class="nav-item bg-light rounded-top-2 custom-border">
-                        <a class="nav-link" href="Servicios.html">Servicios</a>
+                        <a class="nav-link active" aria-current="page" href="Servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item bg-light rounded-top-2 custom-border">
                         <a class="nav-link" href="#">Contactanos</a>
@@ -35,15 +35,16 @@
                         <a class="nav-link" href="#">Testimonios</a>
                     </li>
                     <li class="nav-item bg-light rounded-top-2 custom-border">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="../about/about.html">Nosotros</a>
                     </li>
                     <li class="nav-item bg-light rounded-top-2 custom-border">
-                        <a class="nav-link" href="#">FAQ (Preguntas frecuentes)</a>
+                        <a class="nav-link" href="../about/Faq.html">FAQ (Preguntas frecuentes)</a>
                     </li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-primary">Iniciar Sesión</button>
-            <button type="button" class="btn btn-light mx-2">Registro</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='../auth/login.html'">Iniciar Sesión</button>
+            <button type="button" class="btn btn-light mx-2" onclick="window.location.href='../auth/signup.html'">Registro</button>
+
         </div>
     </nav>
 
@@ -51,7 +52,7 @@
 
 
 
-    <div class="servicios container mt-5">
+    <div class="servicios container my-5">
         <div class="row row-cols-1 row-cols-md-2 g-5 justify-content-center">
             <div class="col-md-6 col-lg-6">
                 <div class="card h-100 d-flex flex-column">
