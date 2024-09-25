@@ -1,0 +1,12 @@
+.testimonial-container {
+    position: relative;
+    padding-top: 40px; /* Ajusta según sea necesario para dar espacio al icono */
+}
+
+.testimonial-container i {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px; 
+}
