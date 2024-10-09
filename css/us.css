@@ -1,17 +1,17 @@
 .container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Establece el color de fondo del contenedor como blanco */
+    padding: 30px; /* Añade un espaciado interno de 30px en todos los lados */
+    border-radius: 8px; /* Redondea las esquinas del contenedor con un radio de 8px */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Aplica una sombra sutil para dar profundidad al contenedor */
 }
 
 form {
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f9fa;
+    padding: 15px; /* Añade un espaciado interno de 15px en todos los lados del formulario */
+    border: 1px solid #ccc; /* Establece un borde sólido de 1px de color gris claro alrededor del formulario */
+    border-radius: 5px; /* Redondea las esquinas del formulario con un radio de 5px */
+    background-color: #f8f9fa; /* Establece el color de fondo del formulario como un gris muy claro */
 }
 
 .map-container {
-    border-radius: 5px;
+    border-radius: 5px; /* Redondea las esquinas del contenedor del mapa con un radio de 5px */
 }

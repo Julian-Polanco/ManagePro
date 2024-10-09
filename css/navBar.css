@@ -1,24 +1,25 @@
-#nav-bar{
-    background-color: rgb(91, 91, 91) !important;
+#nav-bar {
+    background-color: rgb(91, 91, 91) !important; /* Establece el color de fondo de la barra de navegación como gris oscuro */
 }
 
-.main-color{
-    background-color: rgb(91, 91, 91) !important;
+.main-color {
+    background-color: rgb(91, 91, 91) !important; /* Establece el color de fondo principal de la página como gris oscuro */
 }
 
 .custom-border {
-    position: relative;
+    position: relative; /* Establece el contenedor con posición relativa para que los elementos pseudo-elemento se posicionen en relación a él */
 }
 
 .custom-border::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 3px;
-    height: 2px;
-    background-color: #000000; /* Change this to your desired color */
+    content: ''; /* Crea un pseudo-elemento vacío */
+    position: absolute; /* Posiciona el pseudo-elemento de manera absoluta dentro del contenedor */
+    left: 0; /* Alinea el pseudo-elemento al lado izquierdo */
+    right: 0; /* Alinea el pseudo-elemento al lado derecho */
+    bottom: 3px; /* Coloca el pseudo-elemento 3px por encima del borde inferior del contenedor */
+    height: 2px; /* Establece la altura del pseudo-elemento */
+    background-color: #000000; /* Establece el color del borde como negro */
 }
-#footer{
-    background-color: rgb(238, 238, 238);
+
+#footer {
+    background-color: rgb(238, 238, 238); /* Establece el color de fondo del pie de página como gris claro */
 }

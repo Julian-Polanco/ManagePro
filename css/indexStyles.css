@@ -1,32 +1,36 @@
-.main-section{
-    background-color: rgb(197, 197, 197);
+.main-section {
+    background-color: rgb(197, 197, 197); /* Establece un color de fondo gris claro para la sección principal */
 }
+
 /* Sección Principal */
 h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: bold; /* Establece el texto de los encabezados h2 como negrita */
+    margin-bottom: 20px; /* Añade un margen inferior de 20px para separar los encabezados del contenido que sigue */
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.1rem; /* Establece el tamaño de fuente de los párrafos como ligeramente mayor que el tamaño de fuente base */
 }
 
 h3 {
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: bold; /* Establece el texto de los encabezados h3 como negrita */
+    margin-bottom: 20px; /* Añade un margen inferior de 20px para separar los encabezados del contenido que sigue */
 }
 
+/* Icono de cliente */
 .client-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 2rem; /* Establece un tamaño de fuente más grande para los íconos de cliente */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px para separar el ícono del texto que sigue */
 }
 
+/* Estilo para la sección de clientes */
 .client {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Utiliza un modelo de caja flexible para alinear elementos en fila */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    justify-content: center; /* Centra los elementos horizontalmente */
 }
 
+/* Espaciado para iconos e imágenes de clientes */
 .client i, .client img {
-    margin-right: 8px; /* Espacio entre el icono y el texto */
+    margin-right: 8px; /* Añade un margen a la derecha para crear espacio entre el icono o la imagen y el texto */
 }

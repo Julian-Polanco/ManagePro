@@ -1,125 +1,126 @@
 /* Reset y estilos generales */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el padding por defecto de todos los elementos */
+    box-sizing: border-box; /* Incluye padding y borde en el cálculo del ancho y alto de los elementos */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Establece la fuente del cuerpo */
+    background-color: #f0f0f0; /* Color de fondo para el cuerpo */
 }
 
-
-
+/* Estilos de la barra de navegación */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Utiliza un modelo de caja flexible para la barra de navegación */
+    justify-content: space-between; /* Espacia los elementos de manera uniforme */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    list-style: none; /* Elimina los estilos de lista por defecto */
+    display: flex; /* Utiliza un modelo de caja flexible para los enlaces */
+    gap: 20px; /* Espacio entre los enlaces */
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
 
+/* Estilos para los botones de inicio de sesión y registro */
 .buttons {
-    display: flex;
-    gap: 10px;
+    display: flex; /* Utiliza un modelo de caja flexible para los botones */
+    gap: 10px; /* Espacio entre los botones */
 }
 
 .btn-login,
 .btn-register {
-    padding: 8px 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 8px 16px; /* Espaciado interno de los botones */
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    text-decoration: none; /* Elimina el subrayado de los botones */
+    font-weight: bold; /* Hace que el texto de los botones sea negrita */
 }
 
 .btn-login {
-    background-color: #007bff;
-    color: white;
+    background-color: #007bff; /* Color de fondo del botón de inicio de sesión */
+    color: white; /* Color del texto del botón de inicio de sesión */
 }
 
 .btn-register {
-    background-color: #fff;
-    color: #007bff;
-    border: 2px solid #007bff;
+    background-color: #fff; /* Color de fondo del botón de registro */
+    color: #007bff; /* Color del texto del botón de registro */
+    border: 2px solid #007bff; /* Borde del botón de registro */
 }
 
-
+/* Estilos para la sección Hero */
 .hero {
-    background-color: #d3d3d3;
-    text-align: center;
-    padding: 50px 0;
+    background-color: #d3d3d3; /* Color de fondo para la sección Hero */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 50px 0; /* Espaciado interno para la sección Hero */
 }
 
 .hero h1 {
-    font-size: 36px;
-    color: #333;
+    font-size: 36px; /* Tamaño de fuente para el título en la sección Hero */
+    color: #333; /* Color del texto del título en la sección Hero */
 }
 
 /* Sección Acerca de Nosotros */
 .about-us {
-    background-color: white;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    background-color: white; /* Color de fondo para la sección Acerca de Nosotros */
+    padding: 50px; /* Espaciado interno para la sección Acerca de Nosotros */
+    display: grid; /* Utiliza un modelo de cuadrícula para el diseño */
+    grid-template-columns: 1fr 1fr; /* Define dos columnas iguales */
+    gap: 30px; /* Espacio entre las columnas */
 }
 
 .texto-nosotros {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 18px; /* Tamaño de fuente para el texto de Acerca de Nosotros */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
 }
 
 .texto-nosotros h2 {
-    font-size: 32px;
-    color: #333;
+    font-size: 32px; /* Tamaño de fuente para el subtítulo */
+    color: #333; /* Color del texto del subtítulo */
 }
 
 .texto-nosotros p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #666;
+    font-size: 18px; /* Tamaño de fuente para los párrafos */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    color: #666; /* Color del texto para los párrafos */
 }
 
+/* Estilos para las imágenes en la sección Acerca de Nosotros */
 .imagen-nosotros img,
 .imagen-adicional img {
     width: 100%; /* La imagen ocupará todo el ancho disponible */
-    height: auto; /* Mantener la proporción de la imagen */
-    border-radius: 8px; /* Bordes redondeados si lo prefieres */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
 }
 
 .imagen-adicional {
-    margin-top: 20px; 
+    margin-top: 20px; /* Margen superior para la imagen adicional */
 }
 
 /* Valores */
 .valores {
-    margin-top: 30px;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
+    margin-top: 30px; /* Margen superior para la sección de valores */
+    background-color: #f9f9f9; /* Color de fondo para la sección de valores */
+    padding: 20px; /* Espaciado interno para la sección de valores */
+    border-radius: 8px; /* Bordes redondeados para la sección de valores */
 }
 
 .valores h3 {
-    font-size: 28px;
-    color: #333;
+    font-size: 28px; /* Tamaño de fuente para el título de la sección de valores */
+    color: #333; /* Color del texto del título */
 }
 
 .valores p {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 18px; /* Tamaño de fuente para los párrafos de la sección de valores */
+    color: #666; /* Color del texto para los párrafos */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    margin-bottom: 20px; /* Margen inferior para los párrafos */
 }
 
 /* Responsive Design */
@@ -131,49 +132,50 @@ nav {
     /* Ajustar imágenes en móviles */
     .imagen-nosotros img,
     .imagen-adicional img {
-        width: 100%;
-        height: auto;
+        width: 100%; /* Mantiene el ancho al 100% en dispositivos móviles */
+        height: auto; /* Mantiene la proporción de la imagen */
     }
 }
 
-
+/* Estilos para la sección FAQ */
 .faq {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
+    display: grid; /* Utiliza un modelo de cuadrícula para la sección FAQ */
+    grid-template-columns: repeat(3, 1fr); /* Define tres columnas iguales */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 20px; /* Espaciado interno para la sección FAQ */
+    margin: 0 auto; /* Centra la sección FAQ en la página */
+    max-width: 1200px; /* Ancho máximo para la sección FAQ */
 }
 
 .faq-column {
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
+    background-color: #f4f4f4; /* Color de fondo para cada columna de FAQ */
+    padding: 15px; /* Espaciado interno para cada columna de FAQ */
+    border-radius: 8px; /* Bordes redondeados para cada columna de FAQ */
 }
 
 .faq-column h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 18px; /* Tamaño de fuente para los títulos de FAQ */
+    margin-bottom: 10px; /* Margen inferior para los títulos de FAQ */
 }
 
 .faq-column p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 16px; /* Tamaño de fuente para los párrafos de FAQ */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
 }
 
 .image-section {
-    text-align: center;
-    margin-top: 20px;
+    text-align: center; /* Centra el contenido de la sección de imagen */
+    margin-top: 20px; /* Margen superior para la sección de imagen */
 }
 
 .image-section img {
-    width: 150px;
-    height: auto;
+    width: 150px; /* Ancho fijo para la imagen en la sección de imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
+/* Diseño responsivo para FAQ */
 @media (max-width: 768px) {
     .faq {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Hacer que las columnas sean una debajo de otra en móviles */
     }
 }

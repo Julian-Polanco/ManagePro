@@ -1,12 +1,12 @@
 .testimonial-container {
-    position: relative;
-    padding-top: 40px; /* Ajusta según sea necesario para dar espacio al icono */
+    position: relative; /* Establece la posición del contenedor como relativa, lo que permite posicionar elementos hijos de forma absoluta */
+    padding-top: 40px; /* Añade un espaciado en la parte superior de 40px, creando espacio para el ícono */
 }
 
 .testimonial-container i {
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 50px; 
+    position: absolute; /* Posiciona el ícono de manera absoluta en relación con el contenedor padre */
+    top: -10%; /* Mueve el ícono hacia arriba, a un 10% del alto del contenedor */
+    left: 50%; /* Centra el ícono horizontalmente en el contenedor */
+    transform: translateX(-50%); /* Compensa el movimiento hacia la izquierda del ícono, para que esté completamente centrado */
+    font-size: 50px; /* Establece el tamaño de la fuente del ícono en 50px, haciéndolo prominente */
 }
